@@ -1,0 +1,33 @@
+{
+  "name": "node-easy-users-app",
+  "version": "1.0.0",
+  "description": "Never miss a thing in Life. Create users quickly. Organize and keep track of all your users.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Express",
+    "RestAPI",
+    "MongoDB",
+    "Mongoose",
+    "Notes"
+  ],
+  "author": "Enzo",
+  "license": "MIT",
+  "dependencies": {
+    "mongodb": "*",
+    "mongoose": "^5.3.14",
+    "bcryptjs": "*",
+    "passport": "*",
+    "passport-http": "*",
+    "passport-local": "*",
+    "connect-flash": "*",
+    "cookie-parser": "^1.4.1",
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "express-messages": "*",
+    "express-session": "*",
+    "express-validator": "*"
+  }
+}
